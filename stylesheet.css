@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+div {
+    border: 4px solid lime;
+}
+
+.header, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 15vh;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero {
+    padding: 4vh 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seperator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.signUp {
+    color: white;
+    border: 0;
+    padding: 6px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.image {
+    display: block;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.infoContainer, .infoHeader {
+    padding: 4vh 15vh;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+ul > li >  a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero, .footer, .header {
+    background-color: #1F2937;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    max-width: 50%;
+}
+
+.heroContent {
+    max-width: 50%;
+}
+
+.heroContent, .header > a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+button {
+    cursor: pointer;
+}
+
+button, .signUpSection{
+    background-color: #3882F6;
+}
+
+.infoHeader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
+    padding: 4vh 15vh;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quotee {
+    display: flex;
+    justify-content: flex-end;
+}
